@@ -1,24 +1,82 @@
-# Configure main menu and social menu
-#[[main]]
-#identifier = "home"
-#name = "Home"
-#url = "/"
-#[main.params]
-#icon = "home"
-#newtab = true
+# Configure multilingual main and social menus
+[languages.zh-cn.menu]
+[[languages.zh-cn.menu.main]]
+identifier = "home"
+name = "首页"
+url = "/"
 
-[[social]]
+[languages.zh-cn.menu.main.params]
+icon = "home"
+
+[[languages.zh-cn.menu.main]]
+identifier = "archives"
+name = "归档"
+url = "/page/archives/"
+
+[languages.zh-cn.menu.main.params]
+icon = "archive"
+
+[[languages.zh-cn.menu.main]]
+identifier = "search"
+name = "搜索"
+url = "/search/"
+
+[languages.zh-cn.menu.main.params]
+icon = "search"
+
+[[languages.zh-cn.menu.social]]
+identifier = "github"
+name = "GitHub 主页"
+url = "https://github.com/xiesl97"
+
+[languages.zh-cn.menu.social.params]
+icon = "brand-github"
+
+[[languages.zh-cn.menu.social]]
+identifier = "orcid"
+name = "ORCID 主页"
+url = "https://orcid.org/0000-0001-9217-7070"
+
+[languages.zh-cn.menu.social.params]
+icon = "brand-orcid"
+
+[languages.en.menu]
+[[languages.en.menu.main]]
+identifier = "home"
+name = "Home"
+url = "/"
+
+[languages.en.menu.main.params]
+icon = "home"
+
+[[languages.en.menu.main]]
+identifier = "archives"
+name = "Archives"
+url = "/page/archives/"
+
+[languages.en.menu.main.params]
+icon = "archive"
+
+[[languages.en.menu.main]]
+identifier = "search"
+name = "Search"
+url = "/search/"
+
+[languages.en.menu.main.params]
+icon = "search"
+
+[[languages.en.menu.social]]
 identifier = "github"
 name = "GitHub"
 url = "https://github.com/xiesl97"
 
-[social.params]
+[languages.en.menu.social.params]
 icon = "brand-github"
 
-[[social]]
+[[languages.en.menu.social]]
 identifier = "orcid"
 name = "ORCID"
 url = "https://orcid.org/0000-0001-9217-7070"
 
-[social.params]
+[languages.en.menu.social.params]
 icon = "brand-orcid"
