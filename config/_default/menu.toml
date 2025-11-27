@@ -1,15 +1,23 @@
 # Configure main menu and social menu
-#[[main]]
-#identifier = "home"
-#name = "Home"
-#url = "/"
-#[main.params]
-#icon = "home"
-#newtab = true
+[[main]]
+identifier = "首页"
+name = "首页"
+url = "/"
+
+[main.params]
+icon = "home"
+
+[[main]]
+identifier = "归档"
+name = "归档"
+url = "/page/archives/"
+
+[main.params]
+icon = "archive"
 
 [[social]]
 identifier = "github"
-name = "GitHub"
+name = "GitHub 主页"
 url = "https://github.com/xiesl97"
 
 [social.params]
@@ -17,7 +25,7 @@ icon = "brand-github"
 
 [[social]]
 identifier = "orcid"
-name = "ORCID"
+name = "ORCID 主页"
 url = "https://orcid.org/0000-0001-9217-7070"
 
 [social.params]
