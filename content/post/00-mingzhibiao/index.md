@@ -1,6 +1,6 @@
 ---
 title: 明志表
-slug: mingzhi-biao
+slug: 00-mingzhibiao
 date: 2025-12-02T17:00:00
 lastmod: 2025-12-02T17:00:00
 image: cover.jpg
