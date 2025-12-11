@@ -1,10 +1,11 @@
 ---
 title: 明志表
 slug: 00-mingzhibiao
-date: 2025-12-02T17:00:00
-lastmod: 2025-12-02T17:00:00
+date: 2025-12-02T17:00:00Z
+lastmod: 2025-12-11T00:00:00Z
 image: cover.jpg
 draft: false
+weight: -1
 ---
 
 **磁星乎，蓝星也。**  
