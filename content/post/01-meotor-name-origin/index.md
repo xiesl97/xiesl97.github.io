@@ -1,6 +1,6 @@
 ---
 title: Meotor：名字的由来
-slug: 01-meotor_name_origin
+slug: 01-meotor-name-origin
 date: 2025-12-11T00:00:00Z
 lastmod: 2025-12-11T00:00:00Z
 draft: false
